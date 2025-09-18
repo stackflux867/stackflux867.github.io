@@ -1,0 +1,42 @@
+{
+    "addons": [
+        {
+      "transportUrl": "https://torrentio.elfhosted.com/manifest.json",
+      "transportName": "http",
+      "manifest": {
+        "id": "Community-knightcrawler.elfhosted.com",
+        "version": "2.0.26",
+        "name": "KnightCrawler | ElfHosted",
+        "backgroundCredit": "https://unsplash.com/photos/red-cinema-chair-evlkOfkQ5rE",
+        "description": "KnightCrawler Community: torrent streams provided by popular trackers and DMM hashes",
+        "descriptionHTML": "This is an \u003CA HREF=\"https://elfhosted.com\"\u003EElfHosted\u003C/A\u003E instance of \u003CA HREF=\"https://github.com/Gabisonfire/knightcrawler\"\u003EKnightCrawler\u003C/A\u003E, a fork of \u003CA HREF=\"http://torrentio.strem.fm\"\u003Etorrentio.strem.fm\u003C/A\u003E, which provides torrent streams from torrent providers' RSS feeds, and \u003CA HREF=\"https://github.com/debridmediamanager/debrid-media-manager\"\u003EDebridMediaManager\u003C/A\u003E hashes. \u003Cbr/\u003E\u003Cbr/\u003EThe public instance (\u003CA HREF=\"http://knightcrawler.elfhosted.com\"\u003Eknightcrawler.elfhosted.com\u003C/A\u003E) is provided free for public use, and \u003CA HREF=\"https://github.com/funkypenguin/elf-infra/blob/main/traefik-middleware/middleware-rate-limit-public-stremio-addon.yaml\"\u003Erate-limited\u003C/A\u003E appropriately for casual individual streaming use (\u003CI\u003Enot automation\u003C/I\u003E). \u003Cbr/\u003E\u003Cbr/\u003E\u003CA HREF=\"https://elfhosted.com\"\u003EElfHosted\u003C/A\u003E is an \u003CA HREF=\"https://elfhosted.com/open/\"\u003Eopen-source\u003C/A\u003E PaaS built and run by \u003CA HREF=\"https://geek-cookbook.funkypenguin.co.nz\"\u003Egeeks\u003C/A\u003E, which self-hosts \u003CA HREF=\"https://elfhosted.com/guides/media/\"\u003Eyour favorite streaming apps\u003C/A\u003E for you automatically and easily. \u003Cbr/\u003E\u003Cbr/\u003EHosted / private KnightCrawler instances with \u003CA HREF=\"https://github.com/funkypenguin/elf-infra/blob/main/traefik-middleware/middleware-rate-limit-hosted-stremio-addon.yaml\"\u003Erate-limits\u003C/A\u003E appropriate for automation \u003CA HREF=\"https://elfhosted.com/guides/media/stream-from-real-debrid-with-self-hosted-torrentio/\"\u003Eare available\u003C/A\u003E. \u003Cbr/\u003E\u003Cbr/\u003EAn internal, un-rate-limited instance is provided free, with all \u003CA HREF=\"https://elfhosted.com/apps/\"\u003EElfHosted apps\u003C/A\u003E, for automation. \u003Cbr/\u003E\u003Cbr/\u003EWhat is ElfHosted?\n      \u003Cp\u003E\n\t\t\t \u003Ca href=\"https://elfhosted.com/\"\u003EElfHosted\u003C/a\u003E is an \u003Ca href=\"https://elfhosted.com/open/\"\u003Eopen-source\u003C/a\u003E platform for \u003CA HREF=\"https://elfhosted.com/guides/media/\"\u003E\"self-hosting\" Plex with Real Debrid\u003C/A\u003E (\u003CI\u003Eusing \u003CA HREF=\"https://elfhosted.com/guides/media/stream-from-real-debrid-with-plex/\"\u003Eplex_debrid\u003C/A\u003E, \u003CA HREF=\"https://elfhosted.com/guides/media/stream-from-real-debrid-with-plex-riven/\"\u003ERiven\u003C/A\u003E, or \u003CA HREF=\"https://elfhosted.com/guides/media/stream-from-real-debrid-with-plex-radarr-sonarr-prowlarr/\"\u003ERadarr & Sonarr\u003C/A\u003E\u003C/I\u003E), and your \u003Ca href=\"https://elfhosted.com/apps/\"\u003Eawesome self-hosted apps\u003C/a\u003E, automatically and easily.\u003C/p\u003E\n\t\t\t \u003Cp\u003EWe support the Stremio community (\u003CA HREf=\"https://reddit.com/r/StremioAddons\"\u003EReddit\u003C/A\u003E / \u003CA HREF=\"https://discord.gg/zNRf6YF\"\u003EDiscord\u003C/A\u003E) by providing free hosting for some of the \u003CA HREF=\"https://elfhosted.com/stremio-addons/\"\u003Ebest Stremio Addons\u003C/A\u003E, including those which enable you to:\u003C/p\u003E\n       \u003CP\u003ESee the \u003CA HREF='https://stremio-addons-guide.elfhosted.com/'\u003EElfHosted Stremio Addons Guide\u003C/A\u003E for more addons!\u003C/P\u003E\n       \u003Cp\u003E\n\t\t\t\t👨‍👩‍👦‍👦 \u003CA HREF=\"https://elfhosted.com/app/comet/\"\u003EShare your Real Debrid / Stremio from multiple locations at once\u003C/A\u003E (\u003CI\u003EComet\u003C/I\u003E)\n\t\t\t\t\u003Cbr/\u003E🎁 Watch your paid \u003CA HREF=\"https://elfhosted.com/app/xtremio/\"\u003EIPTV with Stremio\u003C/A\u003E (\u003CI\u003EXtremio\u003C/I\u003E)\n\t\t\t\t\u003Cbr/\u003E📺 Install a \u003CA HREF=\"https://elfhosted.com/app/mediafusion/\"\u003EStremio Live TV addon\u003C/A\u003E (\u003CI\u003EMediaFusion\u003C/I\u003E)\n\t\t\t\t\u003Cbr/\u003E🏈 Watch recorded / live \u003CA HREF=\"https://elfhosted.com/app/mediafusion/\"\u003Esports with Stremio\u003C/A\u003E (\u003CI\u003EMediaFusion\u003C/I\u003E)\u003Cbr/\u003E\n      \u003C/p\u003E\t\t",
+        "catalogs": [],
+        "resources": [
+          {
+            "name": "stream",
+            "types": [
+              "movie",
+              "series"
+            ],
+            "idPrefixes": [
+              "tt",
+              "kitsu"
+            ]
+          }
+        ],
+        "types": [
+          "movie",
+          "series",
+          "anime",
+          "other"
+        ],
+        "logo": "https://elfhosted.com/images/logo.svg",
+        "background": "https://unsplash.com/photos/evlkOfkQ5rE/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8M3x8Y2luZW1hfGVufDB8fHx8MTcxMzc5NDg2OHww&force=true&w=1920",
+        "behaviorHints": {
+          "configurable": true,
+          "configurationRequired": false
+        }
+      }
+    }
+    ]
+}
